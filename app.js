@@ -46,3 +46,21 @@ for(var a=1;a<=length;a++){
 }
 }
 
+
+
+
+
+
+
+var headingElement = document.createElement("h1");
+
+var headingText = document.createTextNode("Welcome");
+
+headingElement.appendChild(headingText);
+
+var div = document.getElementById("main");
+
+div.appendChild(headingElement);
+
+console.log(headingText);
+
