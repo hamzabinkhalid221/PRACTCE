@@ -64,3 +64,26 @@ div.appendChild(headingElement);
 
 console.log(headingText);
 
+
+
+function adtodo(){
+    var input = document.getElementById("inputfield");
+
+    var liElement = document.createElement("li");
+
+    var litext = document.createTextNode(input.value);
+
+    liElement.appendChild(litext);
+
+    var list = document.getElementById("list");
+    list.appendChild(liElement);
+
+    input.value = "";
+}
+
+function deleteAll(){
+    var input = document.getElementById("link");
+    list.innerHTML = "";
+}
+
+
