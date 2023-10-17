@@ -87,3 +87,26 @@ function deleteAll(){
 }
 
 
+
+
+
+
+
+
+<div style="text-align: center;">
+<input id="inputfield" type="text" />
+<button onclick="adtodo()">Add Items</button>
+<button onclick="deleteAll()">Delete All</button>
+</div>
+<div style="text-align: center;">
+<ul id="list">
+
+</ul>
+</div>
+
+
+
+
+
+
+
